@@ -1,4 +1,10 @@
-.startBtn{
-    background-color: red;
+.btn-style{
+    background-color: rgb(178, 1, 21);
+    border: none;
+    border-radius: 20px;
+    width: 15%;
     color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 15px;
 }

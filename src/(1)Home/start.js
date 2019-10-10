@@ -1,10 +1,15 @@
 import React from 'react';
-import './start.css';
+import './Start.css';
+import Logo from "./logo.png";
 
-const start = () => (
+const Start = () => (
     <div>
-    <button className="startBtn">Comenzar</button>
-    </div>
-);
+        <img src={Logo} className="img-style"/>
+        <button className="btn-style">Comenzar</button>
+        </div>
+)
 
-export default start;
+export default Start;
+
+
+

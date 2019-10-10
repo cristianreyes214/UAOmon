@@ -1,16 +1,18 @@
 import React from 'react';
 import Logo_uaomon from './Images/Logo_uaomon.svg';
+import Start from './(1)Home/Start.js';
 import './App.css';
-import start from './(1)Home/start';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">    
+      <header className="App-header">
       </header>
-      <header className="Button">
-      <start></start>
+      <header className="App-content-home">
+      <Start></Start>  
       </header>
+       
     </div>
   );
 }
