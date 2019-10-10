@@ -8,7 +8,7 @@ const Start = () => (
         <img src={Logo} />
         </div>
         <div>
-        <button className="btn-style">Comenzar</button>
+        <button className="btn-style-home">Comenzar</button>
         </div>
         </div>
 )

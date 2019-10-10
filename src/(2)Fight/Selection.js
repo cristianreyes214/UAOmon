@@ -4,7 +4,7 @@ import Logo from "../Images/logo.png";
 import charmander from '../Images/charmandersito.png';
 
 const Selection = () => (
-    <div className="home-container">
+    <div className="fight-container">
     <div className="info-container">
         <div>
         <img src={Logo} />
