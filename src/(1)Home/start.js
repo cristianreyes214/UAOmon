@@ -1,11 +1,15 @@
 import React from 'react';
 import './Start.css';
-import Logo from "./logo.png";
+import Logo from "../Images/logo.png";
 
 const Start = () => (
-    <div>
-        <img src={Logo} className="img-style"/>
+    <div className="home-container">
+        <div>
+        <img src={Logo} />
+        </div>
+        <div>
         <button className="btn-style">Comenzar</button>
+        </div>
         </div>
 )
 
