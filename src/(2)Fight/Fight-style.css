@@ -1,0 +1,73 @@
+.btn-style{
+    background-color: rgb(178, 1, 21);
+    border: none;
+    border-radius: 20px;
+    width: 70%;
+    color: white;
+    padding: 3%;
+    font-size: 15px;
+}
+
+.home-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+
+.info-container img{
+    width: 90%;
+}
+
+.collage-style{
+    height: 50%;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.targets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.targets img{
+    width: 50%;
+}
+
+.selection-style{
+    border-radius: 20px;
+    border-color: rgba(129, 128, 128, 0.5);
+    border-style: solid;
+    border-width: 0.5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    margin: 1%;
+    width: 14%;
+    padding: 2%;
+
+}
+
+.text-information{
+    color: white;
+    padding: 1%;
+}
+
+h2{
+    margin: 0 auto;
+    text-align: start;
+    padding-left: 2%;
+    color: gray;
+    padding-top: 3%;
+    padding-left: 3%;
+}
