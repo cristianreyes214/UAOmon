@@ -1,6 +1,6 @@
 import React from 'react';
 import './Start.css';
-import Logo from "../Images/logo.png";
+import Logo from "../Images/uaomon-logo.png";
 
 const Start = () => (
     <div className="home-container">

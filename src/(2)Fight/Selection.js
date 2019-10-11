@@ -1,6 +1,6 @@
 import React from 'react';
 import './Fight-style.css';
-import Logo from "../Images/logo.png";
+import Logo from "../Images/uaomon-logo.png";
 import charmander from '../Images/charmandersito.png';
 
 const Selection = () => (
