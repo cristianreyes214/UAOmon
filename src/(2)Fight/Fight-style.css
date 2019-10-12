@@ -42,7 +42,7 @@
     padding-top: 2%;
 }
 
-.targets img{
+.targets img, .enemy-target img{
     width: 50%;
 }
 
@@ -55,7 +55,18 @@
     margin: 1%;
     width: 14%;
     padding: 2%;
+}
 
+.selection-style-fight{
+    border-radius: 20px;
+    border-color: rgba(129, 128, 128, 0.5);
+    border-style: solid;
+    border-width: 0.5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    margin: 1%;
+    width: 20%;
+    height: 25vmin;
+    padding: 5%;
 }
 
 .text-information{
@@ -70,4 +81,66 @@ h2{
     color: gray;
     padding-top: 3%;
     padding-left: 3%;
+}
+
+/* ------------Figth style --------------------- */
+.fight-content{
+    background-color: white;
+}
+
+.enemy-content{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+}
+
+.enemy-target{
+    widows: 60%     ;
+    background-color: aquamarine;
+    
+}
+
+.img-enemy{
+    width: 100%;
+}
+
+.myPokemon{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.myPokemon-target{
+    width: 80%;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 20px;
+    border-color: rgba(129, 128, 128, 0.5);
+    border-style: solid;
+    border-width: 0.5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    margin: 1%;
+    width: 50%;
+    height: 10vmin;
+    padding: 5%;
+}
+.statistics-style{
+    width: 10%;    
+}
+
+.buttons-attack{
+    background-color: yellow;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1%;
+}
+
+.buttons-attack button{
+    margin: 1%;
+    width: 90%;
 }
