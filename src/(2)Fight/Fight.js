@@ -23,50 +23,60 @@ const Fight = () => (
             </p>
             </div>
             <div>
-            <button className="btn-style">Regresar</button>
+            <button className="btn-style">Cancelar</button>
             </div>
         </div>
 
         <div className="fight-content">
+            <b><p className="text-fight-content">Batalla</p></b>
             <div className="enemy-content">
                 <div className="img-enemy">
                     <img src={enemy} />
                     </div>
                 <div className="enemy-target">
-                    <div className="selection-style">
-                        <img src={charmander} />
-                        <p className="text-card">
+                    <div className="fight-style-target">
+                        <img src={charmander} /><b>
+                            <br></br>
+                            <br></br>
                         Nombre del personaje
                         <br></br>
                         100 de ataque
                         <br></br>
                         200 de defensa
                         <br></br>
-                        </p>
+                        <br></br>
+                        <div id="life-bar">
+                            <div id="percentage"></div>
+                        </div>
+                        </b>
                         
                     </div>
                 </div>
             </div>
             <div className="myPokemon">
+                
+                <div className="myPokemon-target">
                 <div className="img-character">
                     <img src={mycharacter} />
                     </div>
-                <div className="myPokemon-target">
                     <div className="statistics-style">
-                        <p className="text-card">
-                        Nombre del personaje
-                        <br></br>
+                        <h3>Nombre del personaje</h3>
+                        <b>
                         100 de ataque
                         <br></br>
                         200 de defensa
-                        <br></br>
-                        </p>                        
+                        <br></br> 
+                        <br></br> 
+                        <div id="life-bar">
+                            <div id="percentage"></div>
+                        </div>
+                        </b>                      
                     </div>
                     <div className="buttons-attack">
-                        <button>Ataque 1</button>
-                        <button>Ataque 2</button>
-                        <button>Ataque 3</button>
-                        <button>Ataque 4</button>
+                        <button><b>Ataque 1</b></button>
+                        <button><b>Ataque 2</b></button>
+                        <button><b>Ataque 3</b></button>
+                        <button><b>Ataque 4</b></button>
                     </div>
                 </div>
             </div>

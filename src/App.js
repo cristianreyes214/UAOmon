@@ -12,9 +12,9 @@ function App() {
       <header className="App-header">
       </header>
       <header className="App-content-home">
-      {/* <Start></Start>    */}
+      {/* <Start></Start>     */}
       {/* <Selection></Selection> */}
-      <Fight></Fight>
+      <Fight></Fight> 
       </header>
        
     </div>
