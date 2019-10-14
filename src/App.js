@@ -13,8 +13,8 @@ function App() {
       </header>
       <header className="App-content-home">
       {/* <Start></Start>     */}
-      {/* <Selection></Selection> */}
-      <Fight></Fight> 
+      <Selection></Selection> 
+      {/* <Fight></Fight>  */}
       </header>
        
     </div>

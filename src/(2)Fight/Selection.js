@@ -33,6 +33,7 @@ const Selection = () => (
         <div className="targets">
             <div className="selection-style">
             <img src={charmander} />
+            <b>
             <p className="text-card">
             Nombre del personaje
             <br></br>
@@ -40,12 +41,13 @@ const Selection = () => (
             <br></br>
             200 de defensa
             <br></br>
-            </p>
+            </p></b>
             <button className="btn-style">Seleccionar</button>
             </div>
 
             <div className="selection-style">
             <img src={charmander} />
+            <b>
             <p className="text-card">
             Nombre del personaje
             <br></br>
@@ -53,12 +55,13 @@ const Selection = () => (
             <br></br>
             200 de defensa
             <br></br>
-            </p>
+            </p></b>
             <button className="btn-style">Seleccionar</button>
             </div>
 
             <div className="selection-style">
             <img src={charmander} />
+            <b>
             <p className="text-card">
             Nombre del personaje
             <br></br>
@@ -66,12 +69,13 @@ const Selection = () => (
             <br></br>
             200 de defensa
             <br></br>
-            </p>
+            </p></b>
             <button className="btn-style">Seleccionar</button>
             </div>
 
             <div className="selection-style">
             <img src={charmander} />
+            <b>
             <p className="text-card">
             Nombre del personaje
             <br></br>
@@ -79,12 +83,13 @@ const Selection = () => (
             <br></br>
             200 de defensa
             <br></br>
-            </p>
+            </p></b>
             <button className="btn-style">Seleccionar</button>
             </div>
 
                     <div className="selection-style">
             <img src={charmander} />
+            <b>
             <p className="text-card">
             Nombre del personaje
             <br></br>
@@ -92,12 +97,13 @@ const Selection = () => (
             <br></br>
             200 de defensa
             <br></br>
-            </p>
+            </p></b>
             <button className="btn-style">Seleccionar</button>
             </div>
 
             <div className="selection-style">
             <img src={charmander} />
+            <b>
             <p className="text-card">
             Nombre del personaje
             <br></br>
@@ -105,12 +111,13 @@ const Selection = () => (
             <br></br>
             200 de defensa
             <br></br>
-            </p>
+            </p></b>
             <button className="btn-style">Seleccionar</button>
             </div>
 
             <div className="selection-style">
             <img src={charmander} />
+            <b>
             <p className="text-card">
             Nombre del personaje
             <br></br>
@@ -118,12 +125,13 @@ const Selection = () => (
             <br></br>
             200 de defensa
             <br></br>
-            </p>
+            </p></b>
             <button className="btn-style">Seleccionar</button>
             </div>
 
             <div className="selection-style">
             <img src={charmander} />
+            <b>
             <p className="text-card">
             Nombre del personaje
             <br></br>
@@ -131,7 +139,7 @@ const Selection = () => (
             <br></br>
             200 de defensa
             <br></br>
-            </p>
+            </p></b>
             <button className="btn-style">Seleccionar</button>
             </div>
 
