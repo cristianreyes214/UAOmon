@@ -9,6 +9,7 @@
 .App-header {  
   width: 100%;
   position: absolute;
+  background-color: black;
 }
 
 .App-content-home{

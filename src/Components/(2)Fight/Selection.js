@@ -2,15 +2,14 @@ import React from 'react';
 import './Fight-style.css';
 import Logo from "../Images/uaomon-logo.png";
 import charmander from '../Images/charmandersito.png';
+import { Link } from 'react-router-dom';
 
 const Selection = () => (
     <div className="fight-container">
     <div className="info-container">
         <div>
         <img src={Logo} />
-        
-       
-            <p className="text-information">
+        <p className="text-information">
         Parcial práctico
         <br></br>
         Segundo corte
@@ -23,7 +22,7 @@ const Selection = () => (
         </p>
         </div>
         <div>
-        <button className="btn-style">Regresar</button>
+        <Link to='/'><button className="btn-style">Regresar</button></Link>
         </div>
         </div>
         
@@ -42,7 +41,7 @@ const Selection = () => (
             200 de defensa
             <br></br>
             </p></b>
-            <button className="btn-style">Seleccionar</button>
+            <Link to='/pelea'><button className="btn-style">Seleccionar</button></Link>
             </div>
 
             <div className="selection-style">

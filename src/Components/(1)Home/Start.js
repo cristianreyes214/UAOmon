@@ -1,6 +1,7 @@
 import React from 'react';
 import './Start.css';
 import Logo from "../Images/uaomon-logo.png";
+import { Link } from 'react-router-dom';
 
 const Start = () => (
     <div className="home-container">
@@ -8,9 +9,9 @@ const Start = () => (
         <img src={Logo} />
         </div>
         <div>
-        <button className="btn-style-home">Comenzar</button>
+        <Link to='/seleccion'><button className="btn-style-home">Comenzar</button></Link>
         </div>
-        </div>
+    </div>
 )
 
 export default Start;

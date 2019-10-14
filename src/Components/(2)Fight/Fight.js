@@ -4,6 +4,7 @@ import Logo from "../Images/uaomon-logo.png";
 import charmander from '../Images/charmandersito.png';
 import enemy from '../Images/charmander_character.png';
 import mycharacter from '../Images/mycharacter.png';
+import { Link } from 'react-router-dom';
 
 const Fight = () => (
     <div className="fight-container">
@@ -23,7 +24,7 @@ const Fight = () => (
             </p>
             </div>
             <div>
-            <button className="btn-style">Cancelar</button>
+            <Link to='/fin'><button className="btn-style">Cancelar</button></Link>
             </div>
         </div>
 
