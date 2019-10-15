@@ -1,8 +1,12 @@
-.home-container{
+body{
     background-image: url("../Images/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-container{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -26,20 +30,21 @@
     padding-bottom: 1%;
     padding-top: 1%;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     text-decoration-line: none; 
-}
-
-@media screen and (max-width:700px){
-    .btn-style-home{
-        font-size: 10px;
-    }
-    .home-container{
-        min-height: 50vh;
-    }
 }
 
 Link{
     text-decoration-line: none;
 }
+
+/* --------------Responsive Desing-------------------- */
+
+@media only screen and (max-width:700px){
+    .btn-style-home{
+        font-size: 10px;
+    }
+}
+
+
 
