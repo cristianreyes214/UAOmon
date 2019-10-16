@@ -1,30 +1,36 @@
+//Dependencies 
 import React from 'react';
+import { Link } from 'react-router-dom';
+
+//Style
 import './Fight-style.css';
+
+//Assets
 import Logo from "../Images/uaomon-logo.png";
 import charmander from '../Images/charmandersito.png';
 import enemy from '../Images/charmander_character.png';
 import mycharacter from '../Images/mycharacter.png';
-import { Link } from 'react-router-dom';
+
 
 const Fight = () => (
     <div className="fight-container">
-        <div className="info-container">
+        <div className="info-container-f">
             <div>
-            <img src={Logo} />      
-            <p className="text-information">
-            Parcial práctico
-            <br></br>
-            Segundo corte
-            <br></br>
-            <br></br>
-            Cristian Felipe Reyes Cortes
-            <br></br>
-            2140174
-            <br></br>
-            </p>
+                <img src={Logo} />      
+                <p className="text-information-f">
+                    Parcial práctico
+                    <br></br>
+                    Segundo corte
+                    <br></br>
+                    <br></br>
+                    Cristian Felipe Reyes Cortes
+                    <br></br>
+                    2140174
+                    <br></br>
+                </p>
             </div>
             <div>
-            <Link to='/fin'><button className="btn-style">Cancelar</button></Link>
+            <Link to='/fin'><button className="btn-style-fight">Cancelar</button></Link>
             </div>
         </div>
 
@@ -33,7 +39,7 @@ const Fight = () => (
             <div className="enemy-content">
                 <div className="img-enemy">
                     <img src={enemy} />
-                    </div>
+                </div>
                 <div className="enemy-target">
                     <div className="fight-style-target">
                         <img src={charmander} /><b>
@@ -49,16 +55,14 @@ const Fight = () => (
                         <div id="life-bar">
                             <div id="percentage"></div>
                         </div>
-                        </b>
-                        
+                        </b>                        
                     </div>
                 </div>
             </div>
-            <div className="myPokemon">
-                
+            <div className="myPokemon">                
                 <div className="myPokemon-target">
-                <div className="img-character">
-                    <img src={mycharacter} />
+                    <div className="img-character">
+                        <img src={mycharacter} />
                     </div>
                     <div className="statistics-style">
                         <h3>Nombre del personaje</h3>
@@ -82,9 +86,7 @@ const Fight = () => (
                 </div>
             </div>
         </div>
-
-    </div>
-  
+    </div>  
 )
 
 export default Fight;
